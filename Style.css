@@ -1,0 +1,68 @@
+body{
+    background-image:linear-gradient(135deg, rgba(0,0,255,.7),rgba(0,0, 255, 0.6),rgba(0,0, 255, 0.3));
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-position: fixed;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+.body{
+    margin-top: 20px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+#textInput{
+    height: 80%;
+    width: 80%;  
+    resize: none;
+    border-radius: 10px;
+    border-top: 7px solid indigo;
+    border-bottom: 7px solid indigo;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(16, 16, 66);
+    background-color: lightcyan;
+    outline: 0px;
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+    margin-bottom: 0px;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: lightblue;
+    background-size:cover;
+    left: 0;
+}
+
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.footer p span{
+    background-color:yellow;
+    margin: 2px;
+    padding: 4px;
+
+}
+
+
+
